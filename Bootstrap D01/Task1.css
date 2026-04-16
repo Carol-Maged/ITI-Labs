@@ -1,0 +1,52 @@
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    background: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 750px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+}
